@@ -1,21 +1,15 @@
-# todo.py
-
 import os
 
-# 🟢 SET YOUR FILE PATH HERE
-# Example: "C:/Users/YourName/Documents/tasks.txt"
-filename = "D:\daily task\calc.py"
+filename = r"D:\daily task\tasks.txt"  # <-- Correct path
 
-def load_tasks(file_path):
-    tasks = []
-    if os.path.exists(file_path):
-        with open(file_path, "r") as file:
-            for line in file:
-                tasks.append(line.strip())
-    return tasks
+def load_tasks():
+    if os.path.exists(filename):
+        with open(filename, "r") as file:
+            return [line.strip() for line in file.readlines()]
+    return []
 
-def save_tasks(tasks, file_path):
-    with open(file_path, "w") as file:
+def save_tasks(tasks):
+    with open(filename, "w") as file:
         for task in tasks:
             file.write(task + "\n")
 
@@ -24,11 +18,11 @@ def show_tasks(tasks):
         print("No tasks yet.")
     else:
         print("Your tasks:")
-        for i, task in enumerate(tasks, 1):
+        for i, task in enumerate(tasks, start=1):
             print(f"{i}. {task}")
 
 def main():
-    tasks = load_tasks(filename)
+    tasks = load_tasks()
 
     while True:
         print("\nTo-Do List Menu:")
@@ -37,32 +31,32 @@ def main():
         print("3. Remove task")
         print("4. Exit")
 
-        choice = input("Enter choice (1-4): ").strip()
+        choice = input("Choose 1-4: ").strip()
 
         if choice == "1":
             show_tasks(tasks)
 
         elif choice == "2":
-            new_task = input("Enter new task: ")
-            tasks.append(new_task)
-            save_tasks(tasks, filename)
-            print("Task added.")
+            task = input("Enter new task: ")
+            tasks.append(task)
+            save_tasks(tasks)
+            print("✅ Task added.")
 
         elif choice == "3":
             show_tasks(tasks)
             try:
-                index = int(input("Enter task number to remove: ")) - 1
-                if 0 <= index < len(tasks):
-                    removed = tasks.pop(index)
-                    save_tasks(tasks, filename)
-                    print(f"Removed: {removed}")
+                number = int(input("Task number to remove: ")) - 1
+                if 0 <= number < len(tasks):
+                    removed = tasks.pop(number)
+                    save_tasks(tasks)
+                    print(f"🗑️ Removed: {removed}")
                 else:
                     print("Invalid task number.")
             except ValueError:
-                print("Please enter a valid number.")
+                print("❌ Enter a valid number.")
 
         elif choice == "4":
-            print("Goodbye!")
+            print("👋 Goodbye!")
             break
         else:
             print("Invalid choice. Try again.")
