@@ -1,49 +1,19 @@
-# calc.py
-task 1 
-def add(a, b):
-    return a + b
+1️⃣ Normalization: Organizing data to reduce redundancy and improve integrity. It divides data into related tables.
 
-def subtract(a, b):
-    return a - b
+2️⃣ Primary vs Foreign Key: Primary Key uniquely identifies records. Foreign Key links to the primary key in another table.
 
-def multiply(a, b):
-    return a * b
+3️⃣ Constraints: Rules to enforce data integrity, like NOT NULL, UNIQUE, CHECK.
 
-def divide(a, b):
-    if b == 0:
-        return "Error! Division by zero."
-    return a / b
+4️⃣ Surrogate Key: System-generated unique ID with no business meaning.
 
-def calculator():
-    print("Welcome to the CLI Calculator!")
-    
-    while True:
-        print("\nChoose an operation:")
-        print("1. Addition (+)")
-        print("2. Subtraction (-)")
-        print("3. Multiplication (*)")
-        print("4. Division (/)")
-        print("5. Exit")
+5️⃣ Avoid Redundancy: Use normalization and proper table relationships.
 
-        choice = input("Enter your choice (1-5): ")
+6️⃣ ER Diagram: Diagram showing entities, attributes, and relationships in a database.
 
-        if choice == '5':
-            print("Exiting... Goodbye!")
-            break
+7️⃣ DBMS Relationships: One-to-One, One-to-Many, Many-to-Many between tables.
 
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
+8️⃣ AUTO_INCREMENT: Automatically generates unique values for new rows.
 
-        if choice == '1':
-            print("Result:", add(num1, num2))
-        elif choice == '2':
-            print("Result:", subtract(num1, num2))
-        elif choice == '3':
-            print("Result:", multiply(num1, num2))
-        elif choice == '4':
-            print("Result:", divide(num1, num2))
-        else:
-            print("Invalid input. Please choose between 1-5.")
+9️⃣ Default Storage Engine: InnoDB in MySQL, supports transactions and foreign keys.
 
-# Run the calculator
-calculator()
+🔟 Composite Key: Combination of columns uniquely identifying a record.
