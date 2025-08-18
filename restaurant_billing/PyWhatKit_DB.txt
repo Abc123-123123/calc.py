@@ -1,0 +1,65 @@
+Date: 18/8/2025
+Time: 23:51
+Phone Number: +919879328415
+Message: 🧾 Your Bill:French Fries x1 = 90.00Subtotal: 90.00GST: 4.50Discount: 0.00Total: 94.50
+--------------------
+Date: 18/8/2025
+Time: 23:55
+Phone Number: +919879328415
+Message: 🧾 *Restaurant Bill* 🧾Cold Coffee x1 = 70.0Subtotal: 70.00GST: 3.50Discount: 0.00*Total: 73.50*
+--------------------
+Date: 18/8/2025
+Time: 23:56
+Phone Number: +919879328415
+Message: 🧾 *Restaurant Bill* 🧾Cold Coffee x1 = 70.0Subtotal: 70.00GST: 3.50Discount: 0.00*Total: 73.50*
+--------------------
+Date: 19/8/2025
+Time: 0:0
+Phone Number: +919879328415
+Message: 🧾 *Restaurant Bill* 🧾Cold Coffee x1 = 70.0Subtotal: 70.00GST: 3.50Discount: 0.00*Total: 73.50*
+--------------------
+Date: 19/8/2025
+Time: 0:2
+Phone Number: +917567528415
+Message: 🧾 *Restaurant Bill* 🧾Manchurian Dry x1 = 120.0Subtotal: 120.00GST: 6.00Discount: 12.00*Total: 114.00*
+--------------------
+Date: 19/8/2025
+Time: 0:3
+Phone Number: +917567528415
+Message: 🧾 *Restaurant Bill* 🧾Manchurian Dry x1 = 120.0Subtotal: 120.00GST: 6.00Discount: 12.00*Total: 114.00*
+--------------------
+Date: 19/8/2025
+Time: 0:5
+Phone Number: +917861828208
+Message: 🧾 *Restaurant Bill* 🧾Manchurian Dry x1 = 120.0Subtotal: 120.00GST: 6.00Discount: 12.00*Total: 114.00*
+--------------------
+Date: 19/8/2025
+Time: 0:6
+Phone Number: +917567528415
+Message: 🧾 *Restaurant Bill* 🧾Manchurian Dry x1 = 120.0Masala Dosa x1 = 80.0Subtotal: 200.00GST: 10.00Discount: 20.00*Total: 190.00*
+--------------------
+Date: 19/8/2025
+Time: 0:7
+Phone Number: +917567528415
+Message: 🧾 *Restaurant Bill* 🧾Masala Dosa x1 = 80.0Subtotal: 80.00GST: 4.00Discount: 0.00*Total: 84.00*
+--------------------
+Date: 19/8/2025
+Time: 0:9
+Phone Number: +917984110701
+Message: 🧾 *Restaurant Bill* 🧾Paneer Butter Masala x1 = 180.0Butter Naan x1 = 30.0Subtotal: 210.00GST: 10.50Discount: 21.00*Total: 199.50*
+--------------------
+Date: 19/8/2025
+Time: 0:10
+Phone Number: +917984110701
+Message: 🧾 *Restaurant Bill* 🧾Paneer Butter Masala x1 = 180.0Butter Naan x1 = 30.0Subtotal: 210.00GST: 10.50Discount: 21.00*Total: 199.50*
+--------------------
+Date: 19/8/2025
+Time: 0:12
+Phone Number: +919924016373
+Message: 🧾 *Restaurant Bill* 🧾Butter Naan x1 = 30.0Paneer Butter Masala x1 = 180.0Subtotal: 210.00GST: 10.50Discount: 21.00*Total: 199.50*
+--------------------
+Date: 19/8/2025
+Time: 0:13
+Phone Number: +919924016373
+Message: 🧾 *Restaurant Bill* 🧾Paneer Butter Masala x1 = 180.0Subtotal: 180.00GST: 9.00Discount: 18.00*Total: 171.00*
+--------------------
